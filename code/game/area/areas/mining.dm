@@ -117,3 +117,65 @@
 
 /area/lavaland/surface/outdoors/explored
 	name = "Lavaland Labor Camp"
+
+/area/mine/lambda/perimeter
+	name = "Station Lambda EVA Perimeter"
+	has_gravity = STANDARD_GRAVITY
+	flags_1 = NONE
+	blob_allowed = FALSE
+	icon_state = "explored"
+	poweralm = FALSE
+	ambientsounds = MINING
+
+/area/mine/lambda/coridoor
+	name = "Station Lambda Indoor Perimeter"
+	outdoors = TRUE
+
+/area/mine/lambda/eva
+	name = "Station Lambda Main EVA"
+	icon_state = "mining_eva"
+
+/area/mine/lambda/power_storage
+	ambientsounds = ENGINEERING
+	icon_state = "engine_smes"
+
+/area/mine/lambda/engine
+	ambientsounds = ENGINEERING
+
+/area/mine/lambda/engine/engine_smes
+	name = "Engineering SMES"
+	icon_state = "engine_smes"
+
+/area/mine/lambda/engine/chief
+	name = "Station Lambda Chief Engineer's Office"
+	icon_state = "ce_office"
+
+/area/mine/lambda/engine/supermatter
+	name = "Station Lambda Supermatter Engine"
+	icon_state = "engine_sm"
+	valid_territory = FALSE
+
+/area/mine/lambda/engine/engineering
+	name = "Mining Station Engineering"
+	icon_state = "engine"
+
+/area/mine/lambda/engine_eva
+	name = "Station Lambda Engineering EVA"
+	icon_state = "mining_eva"
+
+/area/mine/lambda/bar
+	name = "Station Lambda Bar"
+	icon_state = "bar"
+	mood_bonus = 5
+	mood_message = "<span class='nicegreen'>This bar is miracle considering where we are right now.\n</span>"
+
+/area/mine/lambda/kitchen
+	name = "Station Lambda Kitchen"
+	icon_state = "kitchen"
+
+/area/mine/lambda/kitchen/cold
+	name = "Station Lambda Cold Storage"
+	icon_state = "kitchen_cold"
+
+/area/mine/lambda/hydroponics
+	name = "Station Lambda Hydroponics"
